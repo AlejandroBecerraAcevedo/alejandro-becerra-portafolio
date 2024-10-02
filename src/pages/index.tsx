@@ -2,17 +2,19 @@ import React from "react";
 import LeftMenu from "@/components/organisms/leftMenu";
 import Hero from "@/components/organisms/hero";
 
+
 const Index = () => {
   return (
-    <div className="flex flex-row">
-      <div className="h-full w-3/12 bg-yellow-200 sticky">
+    <div className="relative flex flex-row">
+      <div className="h-full w-3/12 sticky top-0">
         <LeftMenu />
       </div>
-      <div className="flex justify-center w-4/6 bg-slate-400">
+      <div className="flex justify-center w-4/6 bg-slate-200">
         <Hero />
       </div>
-      <div className="flex justify-center h-screen w-1/12 bg-red-200">tres</div>
-      
+      <div className="flex justify-center h-screen w-1/12 bg-slate-200">
+       
+      </div>
     </div>
   );
 };
